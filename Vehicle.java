@@ -53,15 +53,3 @@ public class Vehicle {
         return currentPassengers;//mengembalikan nilai currentPassengers
     }
 }
-
-        
-        /*int sisaKursi = capacity - currentPassengers;//sisaKursi untuk hitung sisa berapa yang muat untuk naik kendaraan(SAAT ADA 2 KALI ATAU LEBIH boardPassengers dipanggil di main)
-        if (sisaKursi < count ){//jika kursi lebih sedikit dari yang ingin naik (melebihi kapasitas)
-            System.out.println(sisaKursi+ "penumpang naik ke dalam "+name);
-            currentPassengers=capacity;//jika sisa kursi yang ada sudah terisi semua berarti currentPassengers = capacity
-            System.out.println("Kapasitas penuh! Tidak dapat menaikkan " +count+ " penumpang");//mencetak berapa yang tidak bisa naik menggunakan rumus (yang ingin naik(count)- yang menempati kursi sisa yg ada(sisaKursi))
-        } else {
-            currentPassengers += count;//
-            System.out.println( count+ " penumpang naik ke dalam " +name);
-        }*/
-        //System.out.println("Total penumpang: "+currentPassengers);
